@@ -3,13 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponente } from './meu-primeiro/meu-primeiro.component';
-import { MeuSegundoComponenteComponent } from './meu-segundo-componente/meu-segundo-componente.component';
+import { MeuSegundoComponente } from './meu-segundo/meu-segundo.component';
+
 
 @NgModule({
   declarations: [	
     AppComponent,
     MeuPrimeiroComponente,
-    MeuSegundoComponenteComponent
+    MeuSegundoComponente
    ],
   imports: [BrowserModule],
   providers: [],
