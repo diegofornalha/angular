@@ -4,4 +4,4 @@ import { Component } from '@angular/core';
   selector: 'app-meu-segundo-componente',
   templateUrl: './meu-segundo.component.html',
 })
-export class MeuSegundoComponente  { }
+export class MeuSegundoComponente  {}
