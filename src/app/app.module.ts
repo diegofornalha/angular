@@ -7,10 +7,10 @@ import { MeuSegundoComponente } from './meu-segundo/meu-segundo.component';
 
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
     MeuPrimeiroComponente,
-    MeuSegundoComponente
+    MeuSegundoComponente,
    ],
   imports: [BrowserModule],
   providers: [],
