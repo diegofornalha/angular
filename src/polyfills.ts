@@ -69,25 +69,8 @@ import 'core-js/es6/regexp';
 import 'core-js/es6/map';
 import 'core-js/es6/weak-map';
 import 'core-js/es6/set';
+
 import 'core-js/es6/reflect';
-
-import 'core-js/es7/reflect';
-import 'core-js/es7/array';
-import 'core-js/es7/object';
-import 'core-js/es7/string';
-import 'core-js/es7/map';
-import 'core-js/es7/set';
-import 'core-js/es7/weak-map';
-import 'core-js/es7/symbol';
-import 'core-js/es7/object';
-import 'core-js/es7/function';
-import 'core-js/es7/parse-int';
-import 'core-js/es7/parse-float';
-import 'core-js/es7/number';
-import 'core-js/es7/math';
-import 'core-js/es7/date';
-import 'core-js/es7/regexp';
-
 import 'zone.js/dist/zone'; // Included with Angular CLI.
 
 
