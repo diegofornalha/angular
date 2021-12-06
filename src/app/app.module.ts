@@ -2,17 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MeuPrimeiroComponente } from './meu-primeiro/meu-primeiro.component';
-import { MeuSegundoComponente } from './meu-segundo/meu-segundo.component';
-import { MeuTerceiroComponent } from './meu-terceiro/meu-terceiro.component';
-
+import { PrincipalComponent } from './components/principal/principal.component';
+import { SecundarioComponent } from './components/secundario/secundario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MeuPrimeiroComponente,
-    MeuSegundoComponente,
-    MeuTerceiroComponent,
+    PrincipalComponent,
+    SecundarioComponent,
    ],
   imports: [BrowserModule],
   providers: [],

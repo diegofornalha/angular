@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { Carro } from '../carro';
+import { Carro } from 'src/app/classes/carro';
 
 @Component({
-  selector: 'app-meu-primeiro-componente',
-  templateUrl: './meu-primeiro.component.html',
+  selector: 'app-principal',
+  templateUrl: './principal.component.html',
 })
 
 // tslint:disable-next-line: component-class-suffix
-export class MeuPrimeiroComponente {
+export class PrincipalComponent {
 
   carros = [
     new Carro('Fusca', 2),
