@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Carro } from 'src/app/classes/carro';
+import { Carro } from 'src/app/components/classes/carro';
 
 @Component({
   selector: 'app-secundario',
