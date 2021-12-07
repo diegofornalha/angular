@@ -7,7 +7,7 @@ import { PrincipalComponent } from './components/principal/principal.component';
 import { SecundarioComponent } from './components/secundario/secundario.component';
 
 import { CursosModule } from './cursos/cursos.module';
-import { BaseComponent } from './base/base.component';
+import { BasesModule } from './bases/bases.module';
 
 @NgModule({
   declarations: [
@@ -15,11 +15,11 @@ import { BaseComponent } from './base/base.component';
     Components,
     PrincipalComponent,
     SecundarioComponent,
-    BaseComponent,
    ],
   imports: [
     BrowserModule,
     CursosModule,
+    BasesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
