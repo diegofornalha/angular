@@ -13,7 +13,6 @@ export class CursosComponent  {
 
   constructor(private cursosService: CursosService) {
     this.nomePortal = 'https://loiane.training';
-
-    
+    this.cursos = this.cursosService.getCursos();
     }
 }
