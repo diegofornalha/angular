@@ -9,10 +9,11 @@ import { Component } from '@angular/core';
 export class CursosComponent  {
 
   nomePortal: string;
-  cursos: string[];
+  cursos: string[] = ['Angular', 'Java', 'Phonegap'];
 
   constructor(private cursosService: CursosService) {
     this.nomePortal = 'https://loiane.training';
-    this.cursos = this.cursosService.getCursos();
+
+    
     }
 }
