@@ -6,6 +6,8 @@ import { Components } from './components/components';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { SecundarioComponent } from './components/secundario/secundario.component';
 
+import { CursosModule } from './cursos/cursos.module';
+import { BaseComponent } from './base/base.component';
 
 @NgModule({
   declarations: [
@@ -13,8 +15,12 @@ import { SecundarioComponent } from './components/secundario/secundario.componen
     Components,
     PrincipalComponent,
     SecundarioComponent,
+    BaseComponent,
    ],
-  imports: [BrowserModule],
+  imports: [
+    BrowserModule,
+    CursosModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
