@@ -4,18 +4,16 @@ import { CommonModule } from '@angular/common';
 import { CursosComponent } from './cursos.component';
 import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component';
 
-
 @NgModule({
   imports: [
-    CommonModule
+  CommonModule
   ],
   declarations: [
-    CursosComponent,
-    CursoDetalheComponent
+  CursosComponent,
+  CursoDetalheComponent
   ],
   exports: [
-    CursosComponent
+  CursosComponent
   ]
 })
-
 export class CursosModule { }
