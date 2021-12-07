@@ -9,11 +9,13 @@ import { Component } from '@angular/core';
 export class CursosComponent  {
 
   nomePortal: string;
+
+
   constructor() {
-  this.nomePortal = 'https://loiane.training';
+    this.nomePortal = 'https://loiane.training';
   }
   cursos = [
-    {nome: 'Angular 2', url: 'https://loiane.training/curso/angular'},
+    {nome: 'Angular', url: 'https://loiane.training/curso/angular'},
     {nome: 'Java Básico', url: 'https://loiane.training/curso/java-basico'},
     {nome: 'Java Intermediário', url: 'https://loiane.training/curso/java-intermediario'},
     {nome: 'Crud Angular Spring', url: 'http://loiane.training/curso/crud-angular-spring'},
