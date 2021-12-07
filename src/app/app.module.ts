@@ -6,7 +6,7 @@ import { Components } from './components/components';
 import { PrincipalComponent } from './components/principal/principal.component';
 
 import { CursosModule } from './cursos/cursos.module';
-import { BasesModule } from './bases/bases.module';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +18,6 @@ import { BasesModule } from './bases/bases.module';
   imports: [
     BrowserModule,
     CursosModule,
-    BasesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
